@@ -3,7 +3,8 @@
 Welcome to EMIS-brick by Cx Associates. This is a Python code base for conducting energy-related analytics on time-series data from building automation systems (BMS/BAS). The code relies on data models for BAS data as defined by the Brick Schema (https://brickschema.org/) and as implemented according to the `brickwork` subrepository (subrepo). The energy modeling is handled within the subrepo `energy_models`.
 
 ## Quick Start
-1. To make a new model, run `src/scripts/new_model.py`, which will export a model as a pickle (.bin) 
+1. This code was developed within a conda environment. To ensure you have all package dependencies taken care of, install the conda environment with `conda env create -f environment.yml`
+2. To make a new model, run `src/scripts/new_model.py`, which will export a model as a pickle (.bin) 
 2. 
 
 CxA's EMIS for brick data models
